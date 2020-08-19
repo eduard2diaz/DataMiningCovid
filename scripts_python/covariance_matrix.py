@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
-data_file = './Data/data.csv'
-covariance_matrix_data_file = 'scripts_python/Preprocessing/covarianceMatrix.csv'
+data_file = '../Data/data.csv'
+covariance_matrix_data_file = './Preprocessing/covarianceMatrix.csv'
 reader = pd.read_csv(data_file, header=0)
 columns = reader.columns
 # print(reader.tail(8)) retorna las ultimas 8 filas

@@ -1,7 +1,7 @@
 import pandas as pd
 
-data_file = 'Data/data.csv'
-correlation_matrix_data_file = 'scripts_python/Preprocessing/correlationMatrix.csv'
+data_file = '../Data/data.csv'
+correlation_matrix_data_file = './Preprocessing/correlationMatrix.csv'
 reader = pd.read_csv(data_file, header=0)
 """
 La idea es ir quitando los atributos que están altamente correlacionados, pues los mismos no aportan

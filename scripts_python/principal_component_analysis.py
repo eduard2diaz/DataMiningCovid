@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 from sklearn import preprocessing
 
-spec_power_data_file = 'Data/data.csv'
+spec_power_data_file = '../Data/data.csv'
 reader = pd.read_csv(spec_power_data_file, header=0)
 columns = reader.columns
 data_csv=reader._get_values
